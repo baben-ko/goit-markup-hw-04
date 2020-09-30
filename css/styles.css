@@ -131,7 +131,10 @@ img {
 .hero-section {
   margin-left: auto;
   margin-right: auto;
-  background: #2f303a;
+  background-image: url(../images/hero/background.png);
+  /* background: rgba(47, 48, 58, 0.4); */
+  background-size: cover;
+  background-position: center;
 
   /* outline: 2px solid tomato; */
 }
