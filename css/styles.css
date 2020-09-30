@@ -149,7 +149,6 @@ img {
   /* outline: 2px solid rgb(71, 255, 246); */
   text-align: center;
   height: 600px;
-  /* background: url(../images/hero/background.png); */
 }
 
 .hero-text {
@@ -180,6 +179,15 @@ img {
 }
 
 /* ==================== FEATURES ======================= */
+
+.features-title::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 
 .features-title {
   font-weight: bold;
