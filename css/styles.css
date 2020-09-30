@@ -180,13 +180,31 @@ img {
 
 /* ==================== FEATURES ======================= */
 
-.features-title::before {
+.feauters-list::before {
   display: block;
   content: '';
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.feauters-list:nth-child(1)::before {
+  background-image: url(../images/features/vector-1.svg);
+}
+
+.feauters-list:nth-child(2)::before {
+  background-image: url(../images/features/vector-2.svg);
+}
+
+.feauters-list:nth-child(3)::before {
+  background-image: url(../images/features/vector-3.svg);
+}
+
+.feauters-list:nth-child(4)::before {
+  background-image: url(../images/features/vector-4.svg);
 }
 
 .features-title {
