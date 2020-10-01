@@ -74,9 +74,7 @@ img {
   margin-right: 50px;
 }
 
-.header-menu-item:last-child {
-  margin-right: 0px;
-} */
+
 
 .header-menu-item:not(:last-child) {
   margin-right: 50px;
