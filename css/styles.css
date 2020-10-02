@@ -119,6 +119,17 @@ img {
   color: var(--blue);
 }
 
+.envelope-svg {
+  margin-right: 10px;
+  fill: currentcolor;
+  align-items: center;
+}
+
+.link-color-header {
+  display: flex;
+  align-items: center;
+}
+
 /* ====================== HERO ========================= */
 .hero-section {
   margin-left: auto;
