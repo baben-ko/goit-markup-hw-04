@@ -327,6 +327,7 @@ img {
   margin: 0px;
   padding: 0px;
   margin-bottom: 50px;
+  /* outline: 2px solid tomato; */
 }
 
 .clients-list {
@@ -337,26 +338,55 @@ img {
   margin: 0px;
   padding: 0px;
   
+  
 }
 
 .clients-item {
-  display: flex;
+  /* display: flex; */
+  
+  
+  
   border: 1px solid #AFB1B8;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-radius: 4px;
   Width: 170px;
   Height: 90px;
+   /* outline: 2px solid tomato; */
      
 }
 
 .clients-section {
   padding-bottom: 94px;
   padding-top: 94px ;
+  /* outline: 2px solid tomato; */
+ 
+  
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Width: 170px;
+  Height: 90px;
+  
+    
+  /* outline: 2px solid tomato; */
+  
+  
 }
 
 .clients-icon {
-   
+  
+  /* justify-content: center;
+  align-items: center; */
+ 
+  
+  /* outline: 2px solid tomato; */
+  
 }
+
+
 
 
 /* ===================== FOOTER ========================== */
