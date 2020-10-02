@@ -346,13 +346,20 @@ img {
   
   
   
-  border: 1px solid #AFB1B8;
-  /* box-sizing: border-box; */
-  border-radius: 4px;
+  
   Width: 170px;
   Height: 90px;
    /* outline: 2px solid tomato; */
      
+}
+
+.clients-link:hover {
+  border: 1px solid var(--blue) ;
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+  color: var(--blue);
+  
+
 }
 
 .clients-section {
@@ -369,6 +376,10 @@ img {
   align-items: center;
   Width: 170px;
   Height: 90px;
+  color: var(--gray);
+  border: 1px solid #AFB1B8;
+  /* box-sizing: border-box; */
+  border-radius: 4px;
   
     
   /* outline: 2px solid tomato; */
@@ -377,6 +388,7 @@ img {
 }
 
 .clients-icon {
+  fill: currentcolor;
   
   /* justify-content: center;
   align-items: center; */
