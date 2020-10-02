@@ -315,6 +315,50 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+/* =======================CLIENTS=========================== */
+
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+
+  display: flex;
+  /* outline: 2px solid tomato; */
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.clients-item {
+  display: flex;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  Width: 170px;
+  Height: 90px;
+     
+}
+
+.clients-section {
+  padding-bottom: 94px;
+  padding-top: 94px ;
+}
+
+.clients-icon {
+   
+}
+
+
 /* ===================== FOOTER ========================== */
 
 .footer {
