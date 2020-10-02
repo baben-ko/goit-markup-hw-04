@@ -25,7 +25,6 @@ li {
   font-style: normal; /* Убираем италик с сылок в адресах */
   display: flex;
   margin-left: auto;
-  
 }
 
 .list {
@@ -94,10 +93,9 @@ img {
   color: var(--black);
 }
 
-.link-header:hover,
-.link-header:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: var(--blue);
-  fill: var(--blue);
 }
 
 .address .link {
@@ -106,32 +104,20 @@ img {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--gray);
-  
 }
 
 .address .link + .link {
   margin-left: 50px;
 }
 
-
+.address .link:hover,
+.address .link:focus {
+  color: var(--blue);
+}
 
 .active {
   color: var(--blue);
 }
-
-.envelope-svg {
-
-  margin-right: 10px;
-  fill: var(--gray);
- 
-  
-
-}
-.link-header {
-
-  display: flex;
-}
-
 
 /* ====================== HERO ========================= */
 .hero-section {
