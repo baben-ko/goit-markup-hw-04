@@ -473,6 +473,8 @@ img {
 }
 
 .container-footer {
+  display: flex;
+
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -493,6 +495,36 @@ img {
 }
 .address-footer:last-child {
   margin-bottom: 0px;
+}
+
+.left-footer {
+
+  outline: 2px solid tomato;
+  margin-right: 70px;
+}
+
+.right-footer {
+
+  outline: 2px solid tomato;
+  
+
+}
+
+.right-footer h2 {
+
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  margin-bottom: 20px;
+  
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+   color: var(--white);
+
 }
 
 /* ====================== PORTFOLIO ======================= */
