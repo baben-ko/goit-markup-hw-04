@@ -300,10 +300,10 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--gray);
-  margin-bottom: 0px;
+  margin-bottom: 16px;
   margin-top: 0px;
   text-align: center;
-  padding-bottom: 30px;
+  
 }
 .list .list-team {
   /* outline: 2px solid tomato; */
@@ -313,6 +313,45 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.social-list {
+
+  display: flex;
+  /* outline: 2px solid tomato; */
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  /* outline: 2px solid tomato; */
+  border-radius: 50%;
+  /* background-color: yellowgreen; */
+  fill: #AFB1B8;
+
+}
+
+.social-list-link:hover {
+
+  background-color: var(--blue)
+  
+}
+
+.social-list-link:hover .social-svg {
+
+  fill: var(--white);
+}
+
+.list-team {
+
+  padding-bottom: 30px;
 }
 
 /* =======================CLIENTS=========================== */
