@@ -499,13 +499,13 @@ img {
 
 .left-footer {
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-right: 70px;
 }
 
 .right-footer {
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   
 
 }
@@ -527,6 +527,45 @@ img {
 
 }
 
+.social-list-footer {
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+
+}
+
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  /* outline: 2px solid tomato; */
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);;
+  fill: var(--white);
+  
+
+}
+
+.li-link:not(:last-child) {
+
+  margin-right: 10px;
+}
+
+
+.social-list-link-footer:hover {
+
+  background-color: var(--blue)
+  
+}
+
+.social-list-link-footer:hover .social-svg {
+
+  fill: var(--white);
+}
 /* ====================== PORTFOLIO ======================= */
 
 /* .button {
