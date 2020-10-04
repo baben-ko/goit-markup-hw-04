@@ -338,13 +338,15 @@ img {
 
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
 
   background-color: var(--blue)
   
 }
 
-.social-list-link:hover .social-svg {
+.social-list-link:hover .social-svg,
+.social-list-link:focus .social-svg {
 
   fill: var(--white);
 }
