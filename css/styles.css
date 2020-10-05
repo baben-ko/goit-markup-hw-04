@@ -561,13 +561,15 @@ img {
 
 .social-list-link-footer:hover {
 
-  background-color: var(--blue)
+  background-color: var(--blue);
+  transition: 1s;
   
 }
 
 .social-list-link-footer:hover .social-svg {
 
   fill: var(--white);
+  transition: 1s;
 }
 /* ====================== PORTFOLIO ======================= */
 
